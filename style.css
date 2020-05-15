@@ -1,0 +1,48 @@
+/*#oogkas-links-schaduw, #voorhoofd-snor-schaduw, #neus-schaduw, #kin-schaduw, #oogkas-rechts-schaduw, #voorhoofdschaduw, #snor-schaduw {
+    opacity: 0;
+}
+
+#oogkas-links-schaduw:hover, #voorhoofd-snor-schaduw:hover, #neus-schaduw:hover, #kin-schaduw:hover, #oogkas-rechts-schaduw:hover, #voorhoofdschaduw:hover, #snor-schaduw:hover{
+    opacity: 1;
+}
+
+*/
+
+#neus-schaduw, #voorhoofd-snor-schaduw, #voorhoofdschaduw, #kin-schaduw, #oogkas-links-schaduw, #oogkas-rechts-schaduw, #snor-schaduw{
+    opacity: 0;
+
+}
+
+#neus-schaduw:hover, #voorhoofd-snor-schaduw:hover, #voorhoofdschaduw:hover, #kin-schaduw:hover, #oogkas-links-schaduw:hover, #oogkas-rechts-schaduw:hover, #snor-schaduw:hover{
+    opacity: 1;
+    
+}
+
+
+#oog-spul{
+    opacity: 0;
+}
+
+
+.background-rotate {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    transform-origin:center;
+    transform: rotateY(180deg);
+  }
+
+#kin, #voorhoofd, #oogkas-links, #oogkas-rechts, #snor, #wenkbrouw, #neus, #voorhoofd-snor, #oog-rechts, #oog-links-1{
+        width: 100%;
+        height: 100%;
+        animation: pulse 5s infinite;
+      }
+      
+      @keyframes pulse {
+        0% {
+          background-color: #001F3F;
+        }
+        100% {
+          background-color: #FF4136;
+        }
+      }
+  }
