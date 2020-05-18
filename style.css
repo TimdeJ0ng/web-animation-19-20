@@ -7,14 +7,32 @@
 }
 
 */
+/* filter: invert(100%) */
+
+.kleur{
+  filter: invert(1);
+  animation: invert 1s ease-in-out;
+}
+
+@keyframes invert{
+0%{
+  filter: invert(0);
+}
+100%{
+  filter: invert(1);
+}
+
+
+}
 
 #neus-schaduw, #voorhoofd-snor-schaduw, #voorhoofdschaduw, #kin-schaduw, #oogkas-links-schaduw, #oogkas-rechts-schaduw, #snor-schaduw{
-    opacity: 0;
+    opacity: 1;
 
 }
 
 #neus-schaduw:hover, #voorhoofd-snor-schaduw:hover, #voorhoofdschaduw:hover, #kin-schaduw:hover, #oogkas-links-schaduw:hover, #oogkas-rechts-schaduw:hover, #snor-schaduw:hover{
-    opacity: 1;
+    opacity: 0
+    ;
     
 }
 
@@ -31,18 +49,28 @@
     transform: rotateY(180deg);
   }
 
-#kin, #voorhoofd, #oogkas-links, #oogkas-rechts, #snor, #wenkbrouw, #neus, #voorhoofd-snor, #oog-rechts, #oog-links-1{
-        width: 100%;
-        height: 100%;
-        animation: pulse 5s infinite;
+
+#oog-rechts > g > g:nth-last-of-type(1),
+#oog-links_1_ > g > g:nth-last-of-type(1)
+{
+  left: 20px;
+  transform: translate(65px,0px);
+  /* style="transform: translate(64px,0px);" */
+}
+
+.beweeg{ 
+  animation: pulse 1s ease-in forwards;
       }
       
       @keyframes pulse {
         0% {
-          background-color: #001F3F;
-        }
+          transform: translate(65px,0px);
+}
+        
         100% {
-          background-color: #FF4136;
+          transform: translate(0px,0px);
         }
       }
-  }
+
+
+
