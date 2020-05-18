@@ -26,12 +26,13 @@ oog.addEventListener("click", function(){
 
 // invert kleur
 var kleur = document.querySelector("body");
-var neus = document.getElementById("neus");
+window.addEventListener('keydown', toggle)
 
-neus.addEventListener("click", function(){
-   console.log("yes")
-   kleur.classList.toggle("kleur");
-});
+function toggle (event){
+   if(event.keyCode == 32){
+      kleur.classList.toggle('kleur');
+   }
+}
 
 
 

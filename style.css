@@ -9,9 +9,11 @@
 */
 /* filter: invert(100%) */
 
+
+
 .kleur{
   filter: invert(1);
-  animation: invert 1s ease-in-out;
+  animation: invert 1s ease-in;
 }
 
 @keyframes invert{
