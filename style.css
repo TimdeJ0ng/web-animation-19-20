@@ -9,38 +9,88 @@
 */
 /* filter: invert(100%) */
 
-
-
+body{
+  margin: 0; height: 100%; overflow: hidden;
+  margin-top: -46px;
+  filter: invert(0);
+  transition: ease .5s;
+  
+}
 .kleur{
   filter: invert(1);
-  animation: invert 1s ease-in;
 }
 
-@keyframes invert{
-0%{
-  filter: invert(0);
-}
-100%{
-  filter: invert(1);
+svg{
+  transform: translate(0px,-100px);
 }
 
-
+#neus-schaduw, #voorhoofd-snor-schaduw, #voorhoofdschaduw, #kin-schaduw, #oogkas-links-schaduw, #oogkas-rechts-schaduw, #snor-schaduw{ 
+  opacity: 0;
+  transition: ease opacity .5s;
+}
+.click{
+ opacity: 1 !important;
 }
 
-#neus-schaduw, #voorhoofd-snor-schaduw, #voorhoofdschaduw, #kin-schaduw, #oogkas-links-schaduw, #oogkas-rechts-schaduw, #snor-schaduw{
-    opacity: 1;
-
+p{
+  text-align: center;
+  font-size: 3.5em;
+  margin: 0 auto;
+  transition: all 0.5s;
+  color: #FF1177;
+  font-family: 'Rammetto One', cursive;
+  background-color: #008F67;
+  padding: 10px 10px;
+  width: 330px;
+  border: solid black 3px;
+  z-index: 9;
+  position: relative;
+  transform: rotate(-20deg);
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  top: 120px;
+  left: -330px;
 }
 
+p:hover{
+  color:#ffffff;  
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FF1177,
+               0 0 70px  #FF1177,
+               0 0 80px  #FF1177,
+               0 0 100px #FF1177,
+               0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #FF1177,
+               0 0 35px #FF1177,
+               0 0 40px #FF1177,
+               0 0 50px #FF1177,
+               0 0 75px #FF1177;
+  }
+}
+
+
+
+/*
 #neus-schaduw:hover, #voorhoofd-snor-schaduw:hover, #voorhoofdschaduw:hover, #kin-schaduw:hover, #oogkas-links-schaduw:hover, #oogkas-rechts-schaduw:hover, #snor-schaduw:hover{
     opacity: 0
     ;
     
-}
+ } */
 
 
 #oog-spul{
-    opacity: 0;
+    opacity: 0 ;
 }
 
 
@@ -57,22 +107,44 @@
 {
   left: 20px;
   transform: translate(65px,0px);
-  /* style="transform: translate(64px,0px);" */
+  transition: ease .5s;
+
 }
 
 .beweeg{ 
-  animation: pulse 1s ease-in forwards;
+  transform: translate(0px,0px )!important;
       }
       
-      @keyframes pulse {
-        0% {
-          transform: translate(65px,0px);
+
+
+
+ #kin{
+   transform: translate(79px,0px);
+   transition: ease .5s;
+ }    
+ 
+ #snor{
+  transform: translate(165px,0px);
+  transition: ease .5s;
+}   
+ #neus{
+  transform: translate(125px,0px);
+  transition: ease .5s;
+}   
+#voorhoofd{
+  transform: translate(-85px,0px);
+  transition: ease .5s;
+}  
+#wenkbrouw{
+  transform: translate(136px,0px);
+  transition: ease .5s;
+}  
+
+.original{
+  transform: translate(0px,0px) !important;
 }
-        
-        100% {
-          transform: translate(0px,0px);
-        }
-      }
 
 
-
+.st23{
+  position:relative;
+}
