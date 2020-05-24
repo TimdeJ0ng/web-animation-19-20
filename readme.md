@@ -4,8 +4,8 @@ Ik heb een kunstwerk van [Josep Prat Sorolla](https://www.behance.net/gallery/14
 
 ## Het kunstwerk
 
-![Gekozen werk](afbeelding.jpg)
-Format: ![Een persoonlijke illustratief experiment van Josep Prat Sorolla](url)
+[Gekozen werk](afbeelding.jpg)
+[Een persoonlijke illustratief experiment van Josep Prat Sorolla](url)
 
 ### Prerequisites
 
