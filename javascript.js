@@ -88,31 +88,38 @@ wenkbrouw.addEventListener("click", function(){
 
 
  
-// let eyeBall = document.querySelector(".st22"),
-    pupil = document.querySelector(".st23"),
-    eyeArea = eyeBall.getBoundingClientRect(),
-    pupilArea = pupil.getBoundingClientRect(),
-    R = eyeArea.width/2,
-    r = pupilArea.width/2,
-    centerX = eyeArea.left + R,
-    centerY = eyeArea.top + R;
+// // let eyeBall = document.querySelector(".st22"),
+//     pupil = document.querySelector(".st23"),
+//     eyeArea = eyeBall.getBoundingClientRect(),
+//     pupilArea = pupil.getBoundingClientRect(),
+//     R = eyeArea.width/2,
+//     r = pupilArea.width/2,
+//     centerX = eyeArea.left + R,
+//     centerY = eyeArea.top + R;
 
-document.addEventListener("mousemove", (e)=>{
-  let x = e.clientX - centerX,
-      y = e.clientY - centerY,
-      theta = Math.atan2(y,x),
-      angle = theta*180/Math.PI + 360;
+// document.addEventListener("mousemove", (e)=>{
+//   let x = e.clientX - centerX,
+//       y = e.clientY - centerY,
+//       theta = Math.atan2(y,x),
+//       angle = theta*180/Math.PI + 360;
   
   
-  pupil.style.transform = `translateX(${R - r +"px"}) rotate(${angle + "deg"})`;
-  pupil.style.transformOrigin = `${r +"px"} center`;
+//   pupil.style.transform = `translateX(${R - r +"px"}) rotate(${angle + "deg"})`;
+//   pupil.style.transformOrigin = `${r +"px"} center`;
+// });
+
+
+
+
+
+var letters = document.querySelector("p");
+var body = document.querySelector("body");
+
+letters.addEventListener("click", function(){
+   console.log("hijdoethet");
+   body.classList.toggle("kleur");
+
 });
-
-
-
-
-
-
 
 
 
