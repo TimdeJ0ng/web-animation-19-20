@@ -1,89 +1,63 @@
 # Web Animatie - Tim de Jong
 
-Ik heb een kunstwerk van [Josep Prat Sorolla](https://www.behance.net/gallery/14475801/Personal-illustration-experiments) gekozen. Het is een werk van zijn behance page en hij bestempeld het als 'Personal Illustration experiments'.
+Kies een kunstwerk (poster, albumhoes etc.) en vertaal dat naar het web. Wat gebeurt er als er met de muis over bepaalde elementen wordt gezweefd? Wat als ze op toetsen op hun toetsenbord drukken? Hoe gedraagt het 'statische kunstwerk' zich  op verschillende schermformaten? 
+Verschillende interacties die aan het kunstwerk zijn toegevoegd om het  interessanter te maken en zijn complementair aan het kunstwerk.
+
 
 ## Het kunstwerk
 
 ![Gekozen werk](afbeelding.jpg)
 Bron: [Een persoonlijk illustratief experiment van Josep Prat Sorolla](https://www.behance.net/gallery/14475801/Personal-illustration-experiments)
 
-### Prerequisites
+Ik heb een kunstwerk van [Josep Prat Sorolla](https://www.behance.net/gallery/14475801/Personal-illustration-experiments) gekozen. Het is een werk van zijn behance page en hij bestempeld het als 'Personal Illustration experiments'. Ik werd enthousiast door de afbeelding en zijn 3d effect, de kleuren en de stijl van de kunstenaar. Dit wilde mezelf graag uitdagen om dit digitaal verder uit te buiten en ervoor te zorgen dat het een nog interessanter ontwerp zou worden.
 
-What things you need to install the software and how to install them
+## Techniek
+
+De technieken die ik heb gebruikt om het kunstwerk na te maken en interactief te maken zijn:
+* Illustrator
+* HTML/CSS
+* Javascript
+
+Om aan de opdracht te voldoen moet het eindproduct voldoen aan een aantal punten.
+
+Het moet responsive zijn:
+
+![responsive](responsive.png)
+Dit heb ik gedaan door gebruik te maken van MediaQueries
+
+```
+@media screen and (max-width: 1030px) {
+  svg{
+    width: 150%;
+    transform: translate(-250px,-100px);
+  }
+    p{
+      left: -290px;
+    }
+  }
+```
+
+
+
+
+Zo moest de css verschillende transities en animaties bevatten om interactie mee te geven. Er moeten verschillende 'psuedo-classes-
+
+You can create different CSS transitions and animations to add interactivity
+You can create different states with CSS pseudo-classes and transforms
+You can tweak and adjust your prototype with in-browser tooling (devtools)
+You can animate .SVG and know how to create scalable graphics
+You can implement new CSS3 features
+You understand the responsive nature of the web (screen sizes)
+You understand the limitations and possibilities of web technology
+
 
 ```
 Give examples
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
 
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
+
 
