@@ -10,7 +10,9 @@
 /* filter: invert(100%) */
 
 body{
-  margin: 0; height: 100%; overflow: hidden;
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden;
   margin-top: -46px;
   filter: invert(0);
   transition: ease .5s;
@@ -203,15 +205,15 @@ p:hover{
 
  @media screen and (max-width: 500px) {
   svg{
-    width: 210%;
-    transform: translate(-280px,-10px);
+    width: 410%;
+    transform: translate(-381px,-40px);
   }
   p{
-    left: -4px;
-    top: 660px;
-    width: 250px;
-    height: 75px;
-    font-size: 3em;
+    left: 137px;
+    top: 1022px;
+    width: 470px;
+    height: 115px;
+    font-size: 5em;
     transform: rotate(0deg);
 }
  }
