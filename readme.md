@@ -1,13 +1,17 @@
 # Web Animatie - Tim de Jong
 
-Ik heb een kunstwerk van [Josep Prat Sorolla](https://www.behance.net/gallery/14475801/Personal-illustration-experiments) gekozen. Het is een werk van zijn behance page en hij bestempeld het als 'Personal Illustration experiments'.
+Kies een kunstwerk (poster, albumhoes etc.) en vertaal dat naar het web. Wat gebeurt er als er met de muis over bepaalde elementen wordt gezweefd? Wat als ze op toetsen op hun toetsenbord drukken? Hoe gedraagt het 'statische kunstwerk' zich  op verschillende schermformaten? 
+Verschillende interacties die aan het kunstwerk zijn toegevoegd om het  interessanter te maken en zijn complementair aan het kunstwerk.
+
 
 ## Het kunstwerk
 
 ![Gekozen werk](afbeelding.jpg)
 Bron: [Een persoonlijk illustratief experiment van Josep Prat Sorolla](https://www.behance.net/gallery/14475801/Personal-illustration-experiments)
 
-### Prerequisites
+Ik heb een kunstwerk van [Josep Prat Sorolla](https://www.behance.net/gallery/14475801/Personal-illustration-experiments) gekozen. Het is een werk van zijn behance page en hij bestempeld het als 'Personal Illustration experiments'. Ik werd enthousiast door de afbeelding en zijn 3d effect, de kleuren en de stijl van de kunstenaar. Dit wilde mezelf graag uitdagen om dit digitaal verder uit te buiten en ervoor te zorgen dat het een nog interessanter ontwerp zou worden.
+
+## Prerequisites
 
 What things you need to install the software and how to install them
 
@@ -15,47 +19,7 @@ What things you need to install the software and how to install them
 Give examples
 ```
 
-### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
