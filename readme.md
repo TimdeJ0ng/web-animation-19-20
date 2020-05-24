@@ -22,7 +22,7 @@ Om aan de opdracht te voldoen moet het eindproduct voldoen aan een aantal punten
 
 ### Het moet responsive zijn:
 
-![responsive](responsive.png)
+![responsive](responsive.jpg)
 Dit heb ik gedaan door gebruik te maken van MediaQueries:
 ```
 @media screen and (max-width: 1030px) {
