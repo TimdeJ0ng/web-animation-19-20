@@ -71,11 +71,18 @@ button.addEventListener("click", function(){
 
 ```
 
+## Eindproduct
+
 ![](invert.gif)
 
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+[Eindproduct](https://timdej0ng.github.io/web-animation-19-20/index.html) 
+
+Bekijk hier het interactieve kunstwerk!
+* Gebruik de spatiebalk om de kleur te veranderen
+* druk op de neus om het 3D te maken
+* Druk vlak rechts naast het rechter-oog om de schaduwen te tonen
+* druk om de raster om deze te flipen
+* hover en click op het naambordje voor een glow effect en een invert color effect.
 
 
