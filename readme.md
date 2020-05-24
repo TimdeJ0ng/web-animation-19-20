@@ -22,10 +22,20 @@ Om aan de opdracht te voldoen moet het eindproduct voldoen aan een aantal punten
 
 Het moet responsive zijn:
 
-```
 ![responsive](responsive.png)
-```
+Dit heb ik gedaan door gebruik te maken van MediaQueries
 
+```
+@media screen and (max-width: 1030px) {
+  svg{
+    width: 150%;
+    transform: translate(-250px,-100px);
+  }
+    p{
+      left: -290px;
+    }
+  }
+```
 
 
 Zo moest de css verschillende transities en animaties bevatten om interactie mee te geven. Er moeten verschillende 'psuedo-classes-
