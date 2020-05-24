@@ -20,7 +20,7 @@ De technieken die ik heb gebruikt om het kunstwerk na te maken en interactief te
 
 Om aan de opdracht te voldoen moet het eindproduct voldoen aan een aantal punten.
 
-###Het moet responsive zijn:
+### Het moet responsive zijn:
 
 ![responsive](responsive.png)
 Dit heb ik gedaan door gebruik te maken van MediaQueries:
@@ -71,9 +71,18 @@ button.addEventListener("click", function(){
 
 ```
 
+## Eindproduct
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+![](invert.gif)
+
+
+[Eindproduct](https://timdej0ng.github.io/web-animation-19-20/index.html) 
+
+Bekijk hier het interactieve kunstwerk!
+* Gebruik de spatiebalk om de kleur te veranderen
+* druk op de neus om het 3D te maken
+* Druk vlak rechts naast het rechter-oog om de schaduwen te tonen
+* druk om de raster om deze te flipen
+* hover en click op het naambordje voor een glow effect en een invert color effect.
 
 
