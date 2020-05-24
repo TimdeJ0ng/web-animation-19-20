@@ -145,6 +145,73 @@ p:hover{
 }
 
 
-.st23{
+/* .st23{ 
   position:relative;
+} */
+
+@media screen and (max-width: 1137px) {
+ svg{
+   width: 150%;
+   transform: translate(-280px,-100px);
+ }
 }
+
+
+@media screen and (max-width: 1030px) {
+  svg{
+    width: 150%;
+    transform: translate(-250px,-100px);
+  }
+    p{
+      left: -290px;
+    }
+  }
+
+
+@media screen and (max-width: 945px) {
+  svg{
+    width: 164%;
+    transform: translate(-300px,-100px);
+  }
+  p{
+    left: -290px;
+  }
+ }
+
+ @media screen and (max-width: 830px) {
+  svg{
+    width: 164%;
+    transform: translate(-261px,-44px);
+  }
+  p{
+    left: -250px;
+    top: 150px;
+    width: 250px;
+    height: 75px;
+    font-size: 3em;
+}
+  }
+ 
+
+ @media screen and (max-width: 600px) {
+  svg{
+    width: 150%;
+    transform: translate(-280px,-100px);
+  }
+
+ }
+
+ @media screen and (max-width: 500px) {
+  svg{
+    width: 210%;
+    transform: translate(-280px,-10px);
+  }
+  p{
+    left: -4px;
+    top: 660px;
+    width: 250px;
+    height: 75px;
+    font-size: 3em;
+    transform: rotate(0deg);
+}
+ }
