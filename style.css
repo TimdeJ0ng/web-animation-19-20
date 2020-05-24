@@ -205,9 +205,13 @@ p:hover{
  }
 
  @media screen and (max-width: 500px) {
+   body{
+    overflow: hidden;
+   }
   svg{
     width: 200%;
-    transform: translate(-232px,50px);
+    transform: translate(-257px,-10px);
+    overflow: hidden;
   }
   p{
     left: 0px;
@@ -216,4 +220,5 @@ p:hover{
     height: 75px;
     font-size: 3em;
     transform: rotate(0deg);
- }
+  }
+}
