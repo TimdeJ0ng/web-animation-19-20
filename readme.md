@@ -71,6 +71,8 @@ button.addEventListener("click", function(){
 
 ```
 
+![](invert.gif)
+
 
 * Hat tip to anyone whose code was used
 * Inspiration
