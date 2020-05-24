@@ -38,6 +38,8 @@ Dit heb ik gedaan door gebruik te maken van MediaQueries
 ```
 
 
+
+
 Zo moest de css verschillende transities en animaties bevatten om interactie mee te geven. Er moeten verschillende 'psuedo-classes-
 
 You can create different CSS transitions and animations to add interactivity
