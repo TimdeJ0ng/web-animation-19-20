@@ -20,6 +20,7 @@ body{
 }
 .kleur{
   filter: invert(1);
+  background-color: black;
 }
 
 svg{
