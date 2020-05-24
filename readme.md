@@ -73,7 +73,7 @@ button.addEventListener("click", function(){
 
 ## Eindproduct
 
-![](invert.gif)
+![](invertkopie.gif)
 
 
 [Eindproduct](https://timdej0ng.github.io/web-animation-19-20/index.html) 
