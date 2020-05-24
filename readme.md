@@ -20,11 +20,10 @@ De technieken die ik heb gebruikt om het kunstwerk na te maken en interactief te
 
 Om aan de opdracht te voldoen moet het eindproduct voldoen aan een aantal punten.
 
-Het moet responsive zijn:
+###Het moet responsive zijn:
 
 ![responsive](responsive.png)
-Dit heb ik gedaan door gebruik te maken van MediaQueries
-
+Dit heb ik gedaan door gebruik te maken van MediaQueries:
 ```
 @media screen and (max-width: 1030px) {
   svg{
@@ -37,22 +36,39 @@ Dit heb ik gedaan door gebruik te maken van MediaQueries
   }
 ```
 
+Zo moest de css verschillende transities en animaties bevatten om interactie mee te geven. Er moeten verschillende 'psuedo-classes'. Hier moest mee geexperimenteerd worden.
+```
+#oog-links_1_ > g > g:nth-last-of-type(1)
+{
+  left: 20px;
+  transform: translate(65px,0px);
+  transition: ease .5s;
+}
+```
 
-
-
-Zo moest de css verschillende transities en animaties bevatten om interactie mee te geven. Er moeten verschillende 'psuedo-classes-
-
-You can create different CSS transitions and animations to add interactivity
-You can create different states with CSS pseudo-classes and transforms
-You can tweak and adjust your prototype with in-browser tooling (devtools)
-You can animate .SVG and know how to create scalable graphics
-You can implement new CSS3 features
-You understand the responsive nature of the web (screen sizes)
-You understand the limitations and possibilities of web technology
-
+En er moest gebruik gemaakt worden van keybindings en clickable items om het kusntwerk interactief te maken. Zo heb ik de spatiebalk gebruikt om een actie toe te voegen aan het kunstwerk. Dit heb ik gedaan met Javascript.
 
 ```
-Give examples
+var kleur = document.querySelector("body");
+window.addEventListener('keydown', toggle)
+
+function toggle (event){
+   if(event.keyCode == 32){
+      kleur.classList.toggle('kleur');
+   }
+}
+
+```
+```
+var button = document.querySelector("g:first-of-type");
+console.log(button)
+
+var element = document.getElementById("achtergrond");
+
+button.addEventListener("click", function(){
+   element.classList.toggle("background-rotate");
+});
+
 ```
 
 
